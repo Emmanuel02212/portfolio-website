@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    position: relative;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0px;
+   text-align: center;
+   align-items: center;
+
+}
+nav ul{
+    display: flex;
+    justify-content:center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 200px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+    float: right;
+
+}
+nav ul li a:hover{
+    color: orange;
+}
+.logo{
+    position: relative;
+    right: 80px;
+}
+.detail{
+    margin: 30px;
+    text-align: center;
+}
+
+.detail A{
+    font-size: 40px;
+    color: #000;
+}
+.detail h2{
+    color: #ff7220;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.detail p{
+    color:mediumspringgreen;
+    margin: 0;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: #000;
+    cursor: grabbing;
+
+}
+.detail a{
+    background: #000;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: bisque;
+    display: inline-block;
+    margin: 50px;
+    border-radius: 10px;
+
+
+}
+.image{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+    margin-right: 5rem;
+    border-radius: 50px;
+    
+}
+.icons{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 10px 10px 30px 130px;
+   
+}
+
+.icons a{
+    text-decoration: none;
+    color: rgb(252, 154, 74);
+   
+}
+.icons ion-icon{
+    color: orange;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-top: 5px;
+    
+
+}
+.icons ion-icon:hover{
+    color: black;
+}
+ h2{
+     padding-top: 50px;
+ }   
+
+
+
+
+
